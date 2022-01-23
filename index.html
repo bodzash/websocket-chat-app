@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./favico.ico" type="image/x-icon">
+    <title>Real Time Chat app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-area">
+            <div class="login-wrapper">
+                <h1>Enter your name!</h1>
+                <input class="name" type="text" placeholder="Type your name here...">
+                <button class="join" type="button">Join live chat!</button>
+                <h2 class="empty-error notshow">You can't leave the name field empty!</h2>
+            </div>
+        </div>
+        <div class="text-area">
+            <!--messages here-->
+            <div class="message center">
+                <strong> Welcome! You have succesfully connected to the server! </strong>
+                <strong> You can tag people by typing @ and their name: @example </strong>
+                <strong> Or tag everyone: @everyone</strong>
+            </div>
+        </div>
+        <div class="input-area">
+            <input class="input" type="text" placeholder="Type here...">
+            <button class="send-btn material-icons" type="button">reply</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+<noscript>
+    Javascript is not supported by your browser
+</noscript>
+</body>
+</html>
